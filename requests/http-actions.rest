@@ -1,0 +1,27 @@
+
+
+DELETE https://peaceful-crag-42912.herokuapp.com/api/persons/2
+
+###
+
+GET http://localhost:3001/api/persons
+
+###
+
+GET https://peaceful-crag-42912.herokuapp.com/api/persons
+
+
+###
+
+GET https://peaceful-crag-42912.herokuapp.com/info
+
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+     "name": "Joe Biden",
+    "number": "001-100-323"
+}
